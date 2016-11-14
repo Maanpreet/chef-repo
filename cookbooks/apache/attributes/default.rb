@@ -4,6 +4,7 @@
 default["apache"]["sites"]["chef1"] = { "port" => 80, "domain" => "chef1.manpreet.pro" }
 default["apache"]["sites"]["2.chef1"] = { "port" => 80, "domain" => "2.chef1.manpreet.pro" }
 
+default["author"]["name"]="Manpreet Singh prod"
 
 case node["platform"]
 when "amazon"

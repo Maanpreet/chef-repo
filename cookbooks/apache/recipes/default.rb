@@ -38,7 +38,8 @@ node["apache"]["sites"].each do |sitename,data|
 		source "index.erb"
 		mode "0644"
 		variables(
-			:site_name => sitename
+			:site_name => sitename,
+			:author_name => node["author"]["name"]
 		)
 	end
 
