@@ -1,2 +1,0 @@
-# chef-repo
-Practice 
